@@ -25,6 +25,6 @@ if [ -z "${HOMARD_ROOT_DIR}" ] ; then
 export HOMARD_ROOT_DIR=@CMAKE_INSTALL_PREFIX@
 fi
 
-${KERNEL_ROOT_DIR}/bin/salome/envSalome.py python -i ${HOMARD_ROOT_DIR}/bin/salome/runSalome.py --modules=HOMARD --xterm --containers=cpp,python --killall
+${KERNEL_ROOT_DIR}/bin/salome/envSalome.py python -i ${HOMARD_ROOT_DIR}/bin/salome/runSalomeHomard.py --modules=HOMARD --xterm --containers=cpp,python --killall
 
 
